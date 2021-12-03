@@ -16,3 +16,4 @@ This plugin sets up aliases for the common [snap](https://snapcraft.io/docs/gett
 | sl | snap list |
 | sd | snap disable |
 | se | snap enable |
+| srn | snap set system refresh.retain=$1 | Update the number of versions that snap will retain on your system where $1 is the number of version and should be between 2 - 20. Default 3. [Docs](https://snapcraft.io/docs/keeping-snaps-up-to-date#heading--refresh-retain).
